@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "functions",
+            "request": "launch",
+            "mainClass": "functions",
+            "projectName": "java projects_e9029adf"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File (Integrated Terminal)",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File (External Terminal)",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "console": "externalTerminal",
+            "timeout": 20000
+        },
+        {
+            "type": "java",
+            "name": "Run Hello (Integrated Terminal)",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java projects_e9029adf",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Hello (External Terminal)",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java projects_e9029adf",
+            "console": "externalTerminal",
+            "timeout": 20000
+        }
+    ]
+}

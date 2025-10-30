@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Selection",
+            "request": "launch",
+            "mainClass": "Sorting.Selection",
+            "projectName": "java projects_e9029adf"
+        },
+        {
+            "type": "java",
             "name": "functions",
             "request": "launch",
             "mainClass": "functions",
